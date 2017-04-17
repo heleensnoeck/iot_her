@@ -5,10 +5,10 @@ Aan dit bericht geef je een kleur mee de kleur staat voor de belangrijksgraat va
 De interface
 ![alt tag](https://github.com/heleensnoeck/iot_her/blob/master/week%201/donderdag/screenshots/interface.png) 
 
-##De werking
+De werking
 ![alt tag](https://github.com/heleensnoeck/iot_her/blob/master/week%201/donderdag/screenshots/flowchart.jpg) 
 
-##File structuur
+File structuur
 
 |--Server IOT
 |	|--node_moduls
