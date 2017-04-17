@@ -7,6 +7,10 @@ Aan dit bericht geef je een kleur mee de kleur staat voor de belangrijksgraat va
 
 ##De werking
 ![alt tag](https://github.com/heleensnoeck/iot_her/blob/master/week%201/donderdag/screenshots/flowchart.jpg) 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 ##File structuur
 ```
@@ -26,5 +30,6 @@ Aan dit bericht geef je een kleur mee de kleur staat voor de belangrijksgraat va
 |   |--README.md
 ```
 
-In handler.js word een http request aangemaakt die de url message (bericht) en de importance (kleur lampjes) meekrijgt. 
-Vervolgens word in index.js een request gemaakt naar /message daar worden het bericht en importance als variable opgeslagen en uitgestuurd naar de server van slack en de server van de arduino. 
+In handler.js word een http request aangemaakt die de url message (bericht) en de importance (kleur lampjes) meestuurd naar de backend (/message). 
+Vervolgens word in index.js een de request naar /message afgehandelt en worden het bericht en importance als variable opgeslagen en uitgestuurd naar de server van slack en de server van de arduino in beide weer een HTTP request. 
+
